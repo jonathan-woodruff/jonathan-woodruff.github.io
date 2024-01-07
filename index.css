@@ -266,7 +266,7 @@ footer {
     }
 }
 
-@media (hover: none) {
+@media (hover: none), (pointer: none), (pointer: coarse) {
     .project p {
         display: block;
     }
