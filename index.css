@@ -1,0 +1,267 @@
+/* cross-region */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: 'JetBrains Mono', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    color: #F9322C;
+}
+
+section {
+    margin-top: 12rem;
+}
+
+section button {
+    margin: 5rem auto 0 auto; 
+}
+
+.email-link {
+    text-decoration: none;
+}
+
+button {
+    background-color: #F9322C;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1rem 2rem 1rem 2rem;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b31c16;
+}
+
+/* header */
+header {
+    border-bottom: 1px solid black;
+    margin-bottom: 5rem;
+}
+
+header .logo {
+    margin: 1.5rem 1rem 1rem 1rem;
+}
+
+header a {
+    font-size: 2rem;
+    color: rgb(35, 35, 35);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.punctuation {
+    color: #F9322C;
+}
+
+/* banner */
+.banner {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.banner .profile {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.banner .handshake {
+    display: none;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.banner h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(35,35,35);
+}
+
+.banner p {
+    text-align: center;
+    font-size: 1.8rem;
+    display: none;
+}
+
+/* Skills section */
+.skills-section {
+    margin-top: 18rem;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.skills figure {
+    margin-bottom: 2rem;
+
+}
+
+.skills figure img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+.skills figure figcaption {
+    text-align: center;
+    color: rgb(86, 84, 84);
+}
+
+/* Projects section */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.projects a {
+    text-decoration: none;
+}
+
+.project {
+    width: 275px;
+    height: 275px;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 10% 80% 10%;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2rem;
+}
+
+.project img {
+    width: 100%;
+    height: 100%;
+    grid-row: 1 / span 3;
+    grid-column: 1 / span 3;
+}
+
+.project p {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    display: none;
+    line-height: 1.8;
+    z-index: 5;
+}
+
+/* story section */
+.bullets {
+    margin: 0 15%;
+}
+
+.bullets ul {
+    list-style-type: circle;
+}
+
+.bullets li {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: rgb(86, 84, 84);
+}
+
+.bullets a {
+    color: #F9322C;
+}
+
+.timeframe,
+.colon {
+    font-size: 2rem;
+}
+
+.bullet-line {
+    display: none;
+}
+
+/* footer */
+footer {
+    color: rgb(86,84,84);
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid #F9322C;
+    margin-top: 8rem;
+}
+
+.footerbox {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 425px) {
+    button {
+        font-size: 1.25rem;
+        padding: 0.75rem 1rem;
+        max-width: 80%;
+    }
+
+    .banner h1 {
+        font-size: 3rem;
+    }
+    
+    .bullets li {
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.5;
+        margin: 2rem auto 0 auto;
+    }
+
+    .bullets ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .timeframe {
+        font-size: 1.3rem;
+        display: block;
+    }
+
+    .colon {
+        display: none;
+    }
+
+    .bullet-line {
+        display: block;
+        width: 40px;
+        margin: 1rem auto;
+        color: rgb(86,84,84);
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    header a {
+        font-size: 1.5rem;
+    }
+}
