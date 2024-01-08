@@ -1,14 +1,3 @@
-/* cross-region */
-
-html {
-    font-size: 16px;
-}
-
-body {
-    margin: 0;
-    font-family: 'JetBrains Mono', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 h2 {
     font-size: 3rem;
     text-align: center;
@@ -28,28 +17,7 @@ section button {
     text-decoration: none;
 }
 
-button {
-    background-color: #F9322C;
-    color: white;
-    border: none;
-    font-weight: bold;
-    font-size: 1.5rem;
-    padding: 1rem 2rem 1rem 2rem;
-    display: block;
-    margin: 0 auto;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #b31c16;
-}
-
 /* header */
-header {
-    border-bottom: 1px solid black;
-    margin-bottom: 5rem;
-}
-
 header .logo {
     margin: 1.5rem 1rem 1rem 1rem;
 }
@@ -210,21 +178,6 @@ header a {
 
 .bullet-line {
     display: none;
-}
-
-/* footer */
-footer {
-    color: rgb(86,84,84);
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-top: 1px solid #F9322C;
-    margin-top: 8rem;
-}
-
-.footerbox {
-    width: 90%;
-    margin: 0 auto;
 }
 
 /* Media Queries */

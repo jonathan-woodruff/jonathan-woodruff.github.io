@@ -43,4 +43,3 @@ for (let i = 0; i < projects.length; i++) {
     projects[i].addEventListener('mouseover',updateProjectStyles);
     projects[i].addEventListener('mouseout',setOriginalProjectStyles);
 }
-
