@@ -6,5 +6,4 @@ This is my personal portfolio website to show off my experience to companies and
 
 ## How to Use
 
-Visit https://jonathan-woodruff.github.io to view the files in action.
-
+Visit [link](https://jonathan-woodruff.github.io){:target="_blank"} to view the files in action.
