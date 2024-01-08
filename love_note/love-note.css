@@ -58,7 +58,7 @@ h1 {
 .subheader {
     text-align: center;
     line-height: 2;
-    color: rgb(86,84,84);
+    color: rgb(35,35,35);
 }
 
 .subheaderbox {
@@ -78,8 +78,9 @@ h1 {
     margin: 3rem auto;
 }
 
-.messagetext {
+.message-text {
     color: rgb(86,84,84);
+    line-height: 1.8;
 }
 
 /* button */
