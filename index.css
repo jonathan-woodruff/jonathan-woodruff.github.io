@@ -278,3 +278,9 @@ footer {
         font-size: 1.5rem;
     }
 }
+
+@media only screen and (max-width: 320px) {
+    .timeframe {
+        font-size: 1.1rem;
+    }
+}
