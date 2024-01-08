@@ -150,6 +150,19 @@ header a {
     z-index: 5;
 }
 
+.project:hover > img {
+    opacity: 0.2;
+    transition: 0.3s;
+}
+
+.project:hover > h3 {
+    display: none;
+}
+
+.project:hover > .project-description {
+    display: block;
+}
+
 /* story section */
 .bullets {
     margin: 0 15%;

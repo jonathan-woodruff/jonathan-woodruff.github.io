@@ -16,6 +16,7 @@ shakeButton.addEventListener('click',showHandshake);
 ** When hovering over the project element, set new styling
 ** When moving the cursor away from the project element, return styles back to non-hovering state
 */
+/*
 const projects = document.getElementsByClassName('project');
 
 const updateProjectStyles = event => {
@@ -43,3 +44,4 @@ for (let i = 0; i < projects.length; i++) {
     projects[i].addEventListener('mouseover',updateProjectStyles);
     projects[i].addEventListener('mouseout',setOriginalProjectStyles);
 }
+*/
