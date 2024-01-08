@@ -22,18 +22,21 @@ const updateProjectStyles = event => {
     let project = event.currentTarget;
     let image = project.querySelector('img');
     let projectDescription = project.querySelector('p');
+    let header3 = project.querySelector('h3');
     projectDescription.style.display = 'block';
-    project.style.backgroundColor = 'black';
     image.style.opacity = 0.2;
+    header3.style.display = 'none';
+    image.style.transition = '0.3s';
 };
 
 const setOriginalProjectStyles = event => {
     let project = event.currentTarget;
     let image = project.querySelector('img');
     let projectDescription = project.querySelector('p');
+    let header3 = project.querySelector('h3');
     projectDescription.style.display = 'none';
-    project.style.backgroundColor = '';
-    image.style.opacity = 1;
+    image.style.opacity = 0.4;
+    header3.style.display = 'block';
 }
 
 for (let i = 0; i < projects.length; i++) {
