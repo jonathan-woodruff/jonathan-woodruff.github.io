@@ -163,6 +163,15 @@ header a {
     display: block;
 }
 
+.project:active > img {
+    opacity: 0;
+}
+
+.project:active > h3,
+.project:active > .project-description {
+    display: none;
+}
+
 /* story section */
 .bullets {
     margin: 0 15%;
