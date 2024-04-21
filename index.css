@@ -29,6 +29,12 @@ header a {
     font-weight: bold;
 }
 
+video {
+    min-width: 320px;
+    max-width: 960px;
+    height: auto;
+}
+
 .punctuation {
     color: #F9322C;
 }
@@ -95,6 +101,14 @@ header a {
 }
 
 /* Projects section */
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 .projects {
     display: flex;
     flex-wrap: wrap;
