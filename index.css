@@ -126,8 +126,9 @@ video {
 }
 
 .video-skills-demonstrated {
-    margin: 20px auto;
-    width: 60%;
+    margin: 30px auto;
+    width: 70%;
+    line-height: 1.7;
 }
 
 .projects {
@@ -220,6 +221,15 @@ video {
 
 .bullets a, .projects-section a {
     color: #F9322C;
+}
+
+.projects-section a:hover {
+    color: #b31c16;
+    transition: 0.3s;
+}
+
+.projects-section a:active {
+    opacity: 0.5;
 }
 
 .timeframe,
