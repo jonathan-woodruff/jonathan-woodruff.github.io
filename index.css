@@ -120,6 +120,12 @@ video {
     margin: 0 auto;
 }
 
+.portfolio-img {
+    min-width: 320px;
+    max-width: 960px;
+    height: auto;
+}
+
 .projects-link {
     display: flex;
     justify-content: center;
