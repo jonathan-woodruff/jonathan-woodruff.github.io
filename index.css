@@ -111,6 +111,23 @@ video {
     color: rgb(86, 84, 84);
 }
 
+.skills figure figcaption a:visited {
+    color: #F9322C;
+}
+
+.skills figure figcaption a {
+    color: #F9322C;
+}
+
+.skills figure figcaption a:hover {
+    color: #b31c16;
+    transition: 0.3s;
+}
+
+.skills figure figcaption a:active {
+    opacity: 0.5;
+}
+
 /* Projects section */
 
 .videos {
