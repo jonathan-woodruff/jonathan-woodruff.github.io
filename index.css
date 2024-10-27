@@ -117,6 +117,7 @@ video {
 
 .skills figure figcaption a {
     color: #F9322C;
+    text-decoration: none;
 }
 
 .skills figure figcaption a:hover {
@@ -245,6 +246,7 @@ video {
 
 .bullets a, .projects-section a {
     color: #F9322C;
+    text-decoration: none;
 }
 
 .projects-section a:hover {
