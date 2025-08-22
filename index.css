@@ -28,6 +28,13 @@ section button {
     text-decoration: none;
 }
 
+.subtitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
 /* header */
 header .logo {
     margin: 1.5rem 1rem 1rem 1rem;
@@ -73,12 +80,15 @@ video {
     font-size: 4rem;
     text-align: center;
     color: rgb(35,35,35);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.banner p {
+#greeting {
     text-align: center;
     font-size: 1.8rem;
     display: none;
+    margin: 0;
 }
 
 /* Skills section */
@@ -136,6 +146,10 @@ video {
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
+}
+
+.video-instance {
+    border: 1px solid black;
 }
 
 .portfolio-img {
